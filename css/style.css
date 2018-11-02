@@ -1,0 +1,148 @@
+*{
+    background-origin: content-box ;
+   
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px  black;
+    /* width: 350px; */
+    overflow: hidden;
+    
+}
+.nav>li>a{
+    text-decoration: none;
+    display: block;
+    /* width: 20%; */
+    background-color: rgb(75, 18, 18);
+    color: whitesmoke ;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.nav>li>a:hover{
+    background-color: beige;
+    color: black;
+}
+.active>a{
+    background-color: rgb(75, 18, 18) !important;
+    color: whitesmoke !important;
+}
+.nav>li{
+    border-bottom: 1px solid black;
+    float: left;
+    width: 20%;
+}
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    min-width: 20%;
+    background-color: rgb(75, 18, 18);
+}
+.dropdown-content>a{
+    text-decoration: none;
+    display: block ;
+    padding-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+.dropdown-content>a:hover{
+    background-color: whitesmoke;
+}
+.dropdown:hover>.dropdown-content{
+    display: block;
+    color: rgb(75, 18, 18);
+}
+
+.backImg{
+    background-image: url("../images/2.jpg");
+    background-size: 100%;
+}
+.backImag{
+    background-image: url("../images/9.jpg");
+    background-size: 100%;
+    height: 100%;
+}
+.backImags{
+    background-image: url("../images/10.jpg");
+    background-size: 100%;
+    
+}
+.backImages{
+    background-image: url("../images/11.jpg");
+    background-size: 100%;
+}
+.onvan{
+    text-align: center;
+    color : white;
+    font: 300;
+}
+.onvan2{
+    text-align: center ;
+    color: white;
+}
+.onvan3{
+    color: whitesmoke;
+}
+.onvan4{
+    text-align: center;
+    color: black;
+}
+.onvan5{
+    text-align: center;
+    color: black;
+}
+.onvan6{
+    color: whitesmoke
+}
+.onvan7{
+    text-align: center;
+    color: black;
+}
+.onvan8{
+    text-align: center;
+    color: black;
+}
+.gallery{
+    float: left;
+    width: 10%;
+}
+.gallery:hover{
+    box-shadow: 10px 10px 5px gray;
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.google{
+    float: right;
+    margin-top:20%;
+}
+.icon{
+    alt:"";
+    width: 0px;
+    height: 0px;
+    float: left;
+    margin-top: 32%; 
+}
+
+@media only screen and (max-width : 466px){
+    .gallery{
+        width: 100%;
+    }
+}
+@media screen and (max-width:366px){
+    .nav1{
+        display: none;
+    } 
+    .menuButton{
+        display: block;
+
+    }
+}
